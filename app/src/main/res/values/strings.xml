@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MediaX</string>
+    <string name="title_home">Home</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_music">Music</string>
+    <string name="title_me">Me</string>
+    <string name="help_feedback"><![CDATA[Help & Feedback]]></string>
+    <string name="setting">Setting</string>
+    <string name="share_mediax">Share MediaX</string>
+    <string name="log_out">Sign Out</string>
+    <string name="about_us">About Us</string>
+    <string name="version_info">V. 1.0.0 (BETA) \n© MediaX 2020</string>
+    <string name="recycle_text1">Horror Movies</string>
+    <string name="recycle_text2">Action Movies Don\'t Miss</string>
+    <string name="recycle_text3">Comedy Movies Updates !</string>
+    <string name="recycle_text4"> Valentine Special Movies</string>
+    <string name="recycle_text5">Thriller Movies</string>
+
+
+    <string name="usernameReg">Username</string>
+    <string name="emailReg">Email</string>
+    <string name="passwordReg">Password</string>
+    <string name="sign_upReg">Sign up</string>
+    <string name="sign_inLog">Sign in</string>
+    <string name="signin_redirect">Already a member? Sign in!</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="signup_redirect">Don\'t have an account? Register here!</string>
+    <string name="story">Story</string>
+    <string name="stars">Stars</string>
+    <string name="comigsoon">more Coming Soon Wait for it..</string>
+    <string name="Search">Search</string>
+    <string name="search_hint">search_hint</string>
+    <string name="type_your_feedback">Enter Your Feedback :</string>
+    <string name="string_end">Thats It</string>
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="or">OR</string>
+    <string name="that_s_it">That\'s it</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_slider"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/slider_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="20sp"
+            android:layout_below="@+id/view_slider"
+            app:tabBackground="@drawable/indicator_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp" />
+
+        <TextView
+            android:id="@+id/h_horiz_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slider_indicator"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/recycle_text1"
+            android:textAllCaps="true"
+            android:textColor="@color/text_white"
+            android:textSize="15sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/h_horiz_recycle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_txt1"
+            android:layout_marginBottom="0sp" />
+
+        <TextView
+            android:id="@+id/h_horiz_txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_recycle1"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/recycle_text2"
+            android:textAllCaps="true"
+            android:textColor="@color/text_white"
+            android:textSize="15sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/h_horiz_recycle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_txt2"
+            android:layout_marginBottom="0sp" />
+
+        <TextView
+            android:id="@+id/h_horiz_txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_recycle2"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/recycle_text3"
+            android:textAllCaps="true"
+            android:textColor="@color/text_white"
+            android:textSize="15sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/h_horiz_recycle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_txt3"
+            android:layout_marginBottom="0sp" />
+
+        <TextView
+            android:id="@+id/h_horiz_txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_recycle3"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/recycle_text4"
+            android:textAllCaps="true"
+            android:textColor="@color/text_white"
+            android:textSize="15sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/h_horiz_recycle4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_txt4"
+            android:layout_marginBottom="0sp" />
+
+        <TextView
+            android:id="@+id/h_horiz_txt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_recycle4"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/recycle_text5"
+            android:textAllCaps="true"
+            android:textColor="@color/text_white"
+            android:textSize="15sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:id="@+id/h_horiz_recycle5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_txt5"
+            android:layout_marginBottom="0sp" />
+
+        <TextView
+            android:id="@+id/h_horiz_txt_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h_horiz_recycle5"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20sp"
+            android:layout_marginBottom="60sp"
+            android:gravity="center"
+            android:text="@string/string_end"
+            android:textAllCaps="true"
+            android:textColor="@color/text_white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</ScrollView>
